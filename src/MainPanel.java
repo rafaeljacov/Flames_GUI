@@ -1,5 +1,4 @@
 import javax.swing.*;
-import javax.swing.text.Caret;
 import java.awt.*;
 
 public class MainPanel extends JPanel{
