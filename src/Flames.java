@@ -22,8 +22,6 @@ public class Flames extends JFrame{
 
 
         flamePanel = new JPanel();
-//        flamePanel.setLayout(null);
-//        flamePanel.setBounds(0,0,700,500);
         flamePanel.add(flameLabel);
         flamePanel.add(flameResult);
         flamePanel.setBackground(new Color(250, 22, 121));
