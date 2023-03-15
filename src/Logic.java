@@ -52,7 +52,7 @@ public class Logic implements ActionListener {
     }
 
     private boolean nameIsNotValid(String name) {
-        if (!name.matches("[a-zA-Z\" ]+")) {
+        if (!name.matches("[a-zA-Z ]+")) {
             JOptionPane.showMessageDialog(
                     null,
                     "Name must not contain non-alphabetic character!",
